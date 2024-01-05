@@ -16,5 +16,12 @@ PowerShell -Command "Get-AppxPackage *Microsoft.Paint* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *Microsoft.ZuneVideo* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *Microsoft.Getstarted* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *Microsoft.549981C3F5F10* | Remove-AppxPackage"
+PowerShell -Command "Get-AppxPackage *Microsoft.OutlookForWindows* | Remove-AppxPackage"
+PowerShell -Command "Get-AppxPackage *Microsoft.Windows.DevHome* | Remove-AppxPackage"
+PowerShell -Command "Get-AppxPackage *Microsoft.GamingApp* | Remove-AppxPackage"
+PowerShell -Command "Get-AppxPackage *Microsoft.BingWeather* | Remove-AppxPackage"
+PowerShell -Command "Get-AppxPackage *Microsoft.WindowsCommunicationsApps* | Remove-AppxPackage"
+%WINDIR%\SysWOW64\OneDriveSetup.exe /Uninstall
+RMDIR /S /Q %ONEDRIVE%
 PAUSE
 EXIT
