@@ -21,7 +21,5 @@ PowerShell -Command "Get-AppxPackage *Microsoft.Windows.DevHome* | Remove-AppxPa
 PowerShell -Command "Get-AppxPackage *Microsoft.GamingApp* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *Microsoft.BingWeather* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *Microsoft.WindowsCommunicationsApps* | Remove-AppxPackage"
-%WINDIR%\SysWOW64\OneDriveSetup.exe /Uninstall
-RMDIR /S /Q %ONEDRIVE%
 PAUSE
 EXIT
